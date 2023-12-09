@@ -4,6 +4,7 @@ import Home from './routes/home/home.page';
 import About from './routes/about/about.page';
 import Portfolio from './routes/portfolio/portfolio.page';
 import Contact from './routes/contact/contact.page';
+import Footer from './components/footer/footer.component.jsx';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
+    <Footer />
   </Router>
   );
 };
