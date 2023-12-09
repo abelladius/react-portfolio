@@ -7,10 +7,10 @@
 
 :root {
 
-	--accent-color: #EBB028; /* main accent color */
-	--primary-color: #4B6398; /* primary color */
-	--secondary-color: #6B6048; /* secondary color */
-	--white-color: #F5F7F8; /* color for white */
+	--accent-color: #64CCC5; /* main accent color */
+	--primary-color: #176B87; /* primary color */
+	--secondary-color: #053B50; /* secondary color */
+	--white-color: #eee; /* color for white */
 	--text-color: #000; /* color for text */
 	
   
@@ -50,3 +50,7 @@ body {
 	line-height: 1.6;
 	font-size: 1.8em;
   }
+
+.content-container{
+	margin-top: 20%;
+}
