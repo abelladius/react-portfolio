@@ -1,0 +1,147 @@
+.about-container{
+    .about-content{
+        display: flex;
+        gap: 2rem;
+
+        @media screen and (max-width: 768px){
+            margin-top: 35%;
+            flex-direction: column;
+        }
+
+        .about-text{
+
+            p{
+                margin-top: 2rem;
+            }
+
+            a{
+                button{
+                    padding: 10px 20px;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    background-color: var(--accent-color);
+                    color: var(--white-color);
+                    margin: 2rem 0;
+                }
+            }
+        }
+
+        .about-image{
+            align-self: center;
+            img{
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .statistics-container{
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        background-color: var(--primary-color);
+        padding: 15px;
+        margin: 2rem 0;
+        color: var(--white-color);
+        text-align: center;
+
+        @media screen and (max-width: 768px){
+            flex-direction: column;
+        }
+
+
+        .stat-item{
+            width: 33.3%;
+            margin: 0 auto;
+            background-color: var();
+
+            .title{
+                color: var(--accent-color);
+            }
+        }
+    }
+
+    .tools-line {
+        display: flex;
+        white-space: nowrap;
+        margin: 2rem auto;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+      
+        a {
+          display: inline-block;
+          padding: 0.5rem;
+          text-decoration: none;
+          color: #333;
+          font-size: 1.5rem;
+          transition: transform 0.3s ease; /* Add a smooth transition */
+      
+          &:hover {
+            color: #61dafb;
+            transform: scale(1.2); /* Example: Scale up on hover, adjust as needed */
+          }
+      
+          i {
+            font-size: 2rem;
+          }
+        }
+      }
+      
+      
+
+      .skills-container{
+        background: var(--white-color);
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5rem;
+        width: 100%;
+        padding: 6rem;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s ease;
+
+        @media screen and (max-width: 768px){
+          padding: .5rem;
+          gap: 2rem;
+        }
+
+        h2.subtitle {
+          writing-mode: vertical-rl;
+          position: absolute;
+          text-transform: uppercase;
+          font-weight: var(--font-weight-bold);
+          font-size: 2em; 
+          top: 10%; 
+          left: 50%;
+          transform: translateX(-50%); 
+          letter-spacing: 1em;
+          opacity: .7;
+
+          @media screen and (max-width: 768px){
+            font-size: 1em;
+          }
+        }
+
+        .skills-lower{
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+
+          .skills-list{
+            width: 40%;
+
+            ul{
+              list-style-type: none;
+              text-align: left;
+              margin-top: 2rem;
+              z-index: 5;
+            }
+          }
+        }
+      }
+      
+      
+            
+}
