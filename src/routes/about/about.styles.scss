@@ -68,6 +68,10 @@
         justify-content: space-between;
         width: 100%;
         gap: 1rem;
+
+        @media screen and (max-width: 768px){
+          overflow: hidden;
+        }
       
         a {
           display: inline-block;
@@ -75,11 +79,11 @@
           text-decoration: none;
           color: #333;
           font-size: 1.5rem;
-          transition: transform 0.3s ease; /* Add a smooth transition */
+          transition: transform 0.3s ease;
       
           &:hover {
             color: #61dafb;
-            transform: scale(1.2); /* Example: Scale up on hover, adjust as needed */
+            transform: scale(1.2); 
           }
       
           i {
@@ -95,6 +99,7 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 5rem;
+        overflow: visible;
         width: 100%;
         padding: 6rem;
         position: relative;
@@ -105,6 +110,8 @@
         @media screen and (max-width: 768px){
           padding: .5rem;
           gap: 2rem;
+          width: 100%;
+
         }
 
         h2.subtitle {
@@ -128,15 +135,23 @@
           display: flex;
           justify-content: space-between;
           position: relative;
-
+          
           .skills-list{
             width: 40%;
+            
+
 
             ul{
               list-style-type: none;
               text-align: left;
               margin-top: 2rem;
               z-index: 5;
+
+              @media screen and (max-width: 768px){
+                margin-left: -10%;
+                font-size: .9rem;
+                line-height: 1.5rem;
+              }
             }
           }
         }
