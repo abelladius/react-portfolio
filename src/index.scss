@@ -55,6 +55,14 @@ body {
 	color: var(--accent-color);
   }
 
+  hr{
+	border: 0;
+	margin-bottom: 2rem;
+	background-color: var(--accent-color);
+	width: 25%;
+	height: 5px;
+  }
+
 .content-container{
 	// margin-top: 20%;
 	margin: 10% auto;

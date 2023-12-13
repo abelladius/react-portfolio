@@ -81,20 +81,37 @@
         
     }
     
+}
 
-    
-    
-    @media screen and (min-width: 769px) and (max-width: 1024px)  {
-        /* Adjust styles for tablets and smaller desktop screens */
-        // .home-container{
-        //     flex-direction: column;
-        // }
+.content-container{
+    .logos-container{
+        display: flex;
+        justify-content: space-between;
+        opacity: .5;
+        align-items: center;
+        font-size: 16px;
 
-      }
-    
-    @media only screen and (min-width: 1025px) {
-        /* Styles for screens larger than 1024px width */
-        /* Adjust styles for larger desktop screens */
-      }
+        @media screen and (max-width: 768px){
+            flex-direction: column;
+            h2{
+                width: 100%;
+            }
+        }
+
+        h2{
+            width: 200px;
+            @media screen and (max-width: 768px){
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            @media screen and (max-width: 857px){
+                font-size: .8rem;
+            }
+        }
+        img{
+            width: 200px;
+        }
+    }
 }
     

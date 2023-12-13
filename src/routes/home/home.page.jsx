@@ -1,12 +1,19 @@
 import './home.styles.scss'
 import HeroImg from '../../assets/images/pp.png'
+import LogoScarpa from '../../assets/images/logos/logo-scarpa.png'
+import LogoAlpinMag from '../../assets/images/logos/logo-alpinmag.png'
+import LogoANIS from '../../assets/images/logos/logo-298x104.png'
 import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
+
+import Testimonials from '../../components/testimonials/testimonials.component'
+
 
 
 
 const Home = () => {
     return (
-      <div className="home-container  content-container">
+      <section>
+        <div className="home-container  content-container">
         <div className="hero-information">
           <p className='accent-small'>Nice to meet you!</p>
           <h1 className="title"> Hi! I'm Damian</h1>
@@ -32,7 +39,24 @@ const Home = () => {
         
           <img src={HeroImg} alt='profile picture' className='hero-image'/>
         
-      </div>
+        </div>
+
+        <div className='content-container'>
+          {/* <h2>Trusted by:</h2> */}
+          <hr />
+          <div className='logos-container'>
+            <h2>Confederatia Intreprinzatorilor Privati din judetul Timis</h2>
+            <img src={LogoScarpa} alt=""/>
+            <img src={LogoAlpinMag} alt="" />
+            <img src={LogoANIS} alt="" />
+          </div>
+        </div>
+
+        <div className="testimonials-container">
+          <Testimonials />
+        </div>
+      </section>
+      
     );
   };
   
