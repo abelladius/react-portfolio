@@ -9,7 +9,7 @@ import Footer from './components/footer/footer.component.jsx';
 const App = () => {
   return (
 
-  <Router>
+  <Router basename='/react-portfolio'>
       <Navbar />
     <Routes className='content-container'>
       <Route path="/" element={<Home />} />
