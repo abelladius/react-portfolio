@@ -63,8 +63,35 @@ body {
 	height: 5px;
   }
 
+
+  .button {
+	background-color: var(--accent-color);
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+  
+	&:hover {
+	  background-color: var(--accent-color);
+	}
+  }
+  
+  .button-secondary {
+	background-color: var(--primary-color);
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+  
+	&:hover {
+	  background-color: var(--primary-color);
+	}
+  }
 .content-container{
-	// margin-top: 20%;
 	margin: 10% auto;
 	width: 80%;
 
