@@ -19,8 +19,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-self: center;
+    margin: 0 auto;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 600px){
         flex-direction: column;
     }
 
@@ -37,6 +38,10 @@
         text-align: center;
         transition: transform 0.2s ease;
         width: 250px;
+
+        @media screen and (max-width: 600px){
+            width: auto;
+        }
 
         .buttons-container{
             margin-top: auto;
