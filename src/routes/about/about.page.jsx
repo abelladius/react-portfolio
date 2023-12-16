@@ -10,7 +10,7 @@ const About = () => {
           <img src={AboutImg} alt="Szolosi Damian" />
         </div>
         <div className="about-text">
-          <h2 className="subtitle">About Me</h2>
+          <h2 className="title">About Me</h2>
           <hr />
           <p>Hello there! I'm a self-taught <span className="accent">web developer</span> who's on a journey to turn ideas into interactive digital experiences. My love for coding began at a young age, and I've been fascinated by the ever-evolving world of web technologies ever since.</p>
           <p className="content">I thrive on the challenges of creating elegant and efficient solutions to complex problems. Whether it's <span className="accent">crafting beautiful user interfaces, optimizing code performance, or diving into the latest web development trends</span>, I'm always eager to learn and push the boundaries of what's possible.</p>
@@ -41,15 +41,15 @@ const About = () => {
       </div>
 
       <div className="tools-line">
-          <a href="#"><i className="fab fa-html5"></i></a>
-          <a href="#"><i className="fab fa-css3"></i></a>
-          <a href="#"><i className="fab fa-js"></i></a>
-          <a href="#"><i className="fab fa-react"></i></a>
-          <a href="#"><i className="fab fa-wordpress"></i></a>
-          <a href="#"><i className="fab fa-sass"></i></a>
-          <a href="#"><i className="fab fa-bootstrap"></i></a>
-          <a href="#"><i className="fab fa-github"></i></a>
-          <a href="#"><i className="fab fa-opencart"></i></a>
+          <i className="fab fa-html5"></i>
+          <i className="fab fa-css3"></i>
+          <i className="fab fa-js"></i>
+          <i className="fab fa-react"></i>
+          <i className="fab fa-wordpress"></i>
+          <i className="fab fa-sass"></i>
+          <i className="fab fa-bootstrap"></i>
+          <i className="fab fa-github"></i>
+          <i className="fab fa-opencart"></i>
         </div>
 
         <div className="skills-container">

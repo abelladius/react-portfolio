@@ -1,0 +1,17 @@
+.contact-container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        margin-top: 25%;
+    }
+
+    :first-child{
+        .accent{
+            font-size: .9rem;
+            margin-bottom: -2%;
+        }
+    }
+}
