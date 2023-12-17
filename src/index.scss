@@ -7,11 +7,18 @@
 
 :root {
 
-	--accent-color: #64CCC5; /* main accent color */
-	--primary-color: #176B87; /* primary color */
-	--secondary-color: #053B50; /* secondary color */
-	--white-color: #eee; /* color for white */
-	--text-color: #000; /* color for text */
+	--accent-color: #64CCC5; 
+	--primary-color: #176B87; 
+	--secondary-color: #053B50; 
+	--white-color: #eee; 
+	--text-color: #000; 
+
+	
+	// --accent-color: #d8e838; 
+	// --primary-color: #176B87; 
+	// --secondary-color: #424242; 
+	// --white-color: #eee; 
+	// --text-color: #000; 
 	
   
 	/* Fonts */
@@ -69,7 +76,7 @@ body {
 
 
   .button {
-	background-color: var(--accent-color);
+	background-color: var(--primary-color);
 	color: #fff;
 	padding: 10px 20px;
 	border: none;
@@ -79,11 +86,12 @@ body {
   
 	&:hover {
 	  background-color: var(--accent-color);
+	  color: var(--text-color);
 	}
   }
   
   .button-secondary {
-	background-color: var(--primary-color);
+	background-color: var(--accent-color);
 	color: #fff;
 	padding: 10px 20px;
 	border: none;
@@ -98,7 +106,6 @@ body {
 .content-container{
 	margin: 10% auto;
 	width: 80%;
-
 	@media screen and (max-width: 768px){
 		width: 95%;
 	}

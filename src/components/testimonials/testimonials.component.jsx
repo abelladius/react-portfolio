@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfilePicture from '../../assets/images/pp-2.png'
+import ProfilePicture from '../../assets/images/pp-2.webp'
 import './testimonials.styles.scss'
 
 

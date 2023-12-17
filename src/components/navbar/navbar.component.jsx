@@ -1,6 +1,5 @@
 import './navbar.styles.scss';
 import { Link } from 'react-router-dom';
-// import { FaHome, FaUser, FaFolder, FaEnvelope, FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
 import { RiMenu3Line } from "react-icons/ri";
 
 
@@ -18,11 +17,6 @@ const Navbar = () => {
         <li><Link to="/portfolio">My work</Link></li>
         <li><Link to="/contact">Get in touch!</Link></li>
       </ul>
-      {/* <ul className='social-icons'>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaGithub /></a></li>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></li>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaTelegram /></a></li>
-      </ul> */}
     </nav>
   );
 };

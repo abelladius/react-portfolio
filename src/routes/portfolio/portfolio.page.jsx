@@ -1,7 +1,7 @@
-import Project1 from '../../assets/images/projects/project-1.png'
-import Project2 from '../../assets/images/projects/project-2.png'
-import Project3 from '../../assets/images/projects/project-3.png'
-import Project4 from '../../assets/images/projects/project-4.PNG'
+import Project1 from '../../assets/images/projects/project-1.webp'
+import Project2 from '../../assets/images/projects/project-2.webp'
+import Project3 from '../../assets/images/projects/project-3.webp'
+import Project4 from '../../assets/images/projects/project-4.webp'
 import './portfolio.styles.scss'
 
 import ProjectCard from '../../components/project-card/project-card.component'
