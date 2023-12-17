@@ -5,16 +5,20 @@ import LogoAlpinMag from '../../assets/images/logos/logo-alpinmag.webp'
 import LogoANIS from '../../assets/images/logos/logo-298x104.webp'
 import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
 import CV from '../../assets/CV-Damian-Szolosi.pdf'
-
-
 import Testimonials from '../../components/testimonials/testimonials.component'
+
+import {motion} from 'framer-motion'
 
 
 
 
 const Home = () => {
     return (
-      <section>
+      <motion.section
+      initial={{width:0}}
+      animate={{width:'100%'}}
+      exit={{x: window.innerWidth, transition: {duration: 0.3}}}>
+
         <div className="home-container  content-container">
         <div className="hero-information">
           <p className='accent-small'>Nice to meet you!</p>
@@ -58,7 +62,7 @@ const Home = () => {
         <div className="testimonials-container">
           <Testimonials />
         </div>
-      </section>
+      </motion.section>
       
     );
   };

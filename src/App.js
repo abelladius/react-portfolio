@@ -1,22 +1,17 @@
 import Navbar from './components/navbar/navbar.component.jsx';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './routes/home/home.page';
-import About from './routes/about/about.page';
-import Portfolio from './routes/portfolio/portfolio.page';
-import Contact from './routes/contact/contact.page';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './components/footer/footer.component.jsx';
+import AnimatedRoutes from './components/AnimatedRoutes.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 const App = () => {
+  
   return (
 
   <Router basename='/react-portfolio'>
-      <Navbar />
-    <Routes className='content-container'>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
+    <ScrollToTop />
+    <Navbar />
+    <AnimatedRoutes />
     <Footer />
   </Router>
   );
