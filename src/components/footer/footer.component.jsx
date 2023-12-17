@@ -5,7 +5,7 @@ import './footer.styles.scss';
 const Footer = () => {
   return (
     <footer className="footer">
-        <div class="footer-info">
+        <div className="footer-info">
             <p>&copy; 2024 Szolosi Damian</p>
             <p>Contact: szolosi.albert15@gmail.com</p>
         </div>

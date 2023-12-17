@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar">
       <Link to="/" className='logo'>Damian S.</Link>
       <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
+        <label htmlFor="check" className="checkbtn">
         <RiMenu3Line />
       </label>
       <ul>
