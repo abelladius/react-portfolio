@@ -1,9 +1,11 @@
 import './home.styles.scss'
-import HeroImg from '../../assets/images/pp.png'
-import LogoScarpa from '../../assets/images/logos/logo-scarpa.png'
-import LogoAlpinMag from '../../assets/images/logos/logo-alpinmag.png'
-import LogoANIS from '../../assets/images/logos/logo-298x104.png'
+import HeroImg from '../../assets/images/pp.webp'
+import LogoScarpa from '../../assets/images/logos/logo-scarpa.webp'
+import LogoAlpinMag from '../../assets/images/logos/logo-alpinmag.webp'
+import LogoANIS from '../../assets/images/logos/logo-298x104.webp'
 import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
+import CV from '../../assets/CV-Damian-Szolosi.pdf'
+
 
 import Testimonials from '../../components/testimonials/testimonials.component'
 
@@ -20,8 +22,10 @@ const Home = () => {
           <p>I'm a <span className="accent">Frontend Web Developer</span> armed with a toolbox of HTML, CSS, JavaScript and React. I thrive on building elegant and intuitive interfaces that captivate users and bring ideas to life in the digital realm.</p>
 
           <div className="cta-buttons">
-            <button className="cta-button primary">See my work!</button>
-            <button className="cta-button secondary">Download my CV!</button>
+            <button className="cta-button button">See my work!</button>
+            <a href={CV} download="DamianS_CV.pdf">
+                <button className='button-secondary'>Download my CV!</button>
+          </a>
           </div>
 
 
@@ -37,12 +41,11 @@ const Home = () => {
         </div>
 
         
-          <img src={HeroImg} alt='profile picture' className='hero-image'/>
+          <img src={HeroImg} alt='Damian' className='hero-image'/>
         
         </div>
 
         <div className='content-container'>
-          {/* <h2>Trusted by:</h2> */}
           <hr />
           <div className='logos-container'>
             <h2>Confederatia Intreprinzatorilor Privati din judetul Timis</h2>

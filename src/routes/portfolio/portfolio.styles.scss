@@ -46,8 +46,12 @@
         .buttons-container{
             margin-top: auto;
 
-            .button-secondary{
-                background-color: #333;
+            // .button-secondary{
+            //     background-color: #333;
+            // }
+
+            .button{
+                background-color: var(--secondary-color);
             }
           }
 

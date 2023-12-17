@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.styles.scss'; 
-import AboutImg from '../../assets/images/pp-2.png'
+import AboutImg from '../../assets/images/pp-2.webp'
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
           <p className="content">When I'm not glued to my computer screen, you can find me exploring the great outdoors, capturing moments through photography, or sipping on a cup of artisan coffee at a cozy cafe. I believe that a well-balanced life fuels creativity and innovation, and I'm constantly seeking inspiration from the world around me.</p>
 
           <a href="assets/CV-Szolosi-Damian.pdf" download="DamianS_CV.pdf">
-                <button>Download my CV!</button>
+                <button className='button'>Download my CV!</button>
           </a>
         </div>
       </div>
