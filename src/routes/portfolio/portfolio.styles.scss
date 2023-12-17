@@ -1,11 +1,14 @@
 .projects-container{
     text-align: center;
-    :first-child{
+    .projects-container-header{
         h2{
             margin-top: 5rem;
         }
         p{
             margin: 2rem;
+            @media screen and (max-width: 600px){
+                margin: 1rem;
+            }
         }
         hr{
             margin: 0 auto 2rem;
@@ -46,10 +49,6 @@
         .buttons-container{
             margin-top: auto;
 
-            // .button-secondary{
-            //     background-color: #333;
-            // }
-
             .button{
                 background-color: var(--secondary-color);
             }
@@ -59,6 +58,10 @@
             max-height: 200px ;
             overflow: hidden;
             transition: max-height 0.5s ease; 
+
+            &.expanded{
+                max-height: none;
+            }
           }
 
         

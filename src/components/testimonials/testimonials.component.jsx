@@ -5,7 +5,7 @@ import './testimonials.styles.scss'
 
 const Testimonials = () => {
   return (
-    <div class="content-container testimonial-container">
+    <div className="content-container testimonial-container">
         <h2 className="subtitle">Testimonials</h2>
         <hr />
         <p>Discover the experiences and feedback of those who have journeyed with me. These testimonials are a testament to the collaborations, the impact, and the relationships forged through web development.</p>

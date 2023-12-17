@@ -13,24 +13,17 @@
             p{
                 margin-top: 2rem;
             }
-
-            a{
-                // button{
-                //     padding: 10px 20px;
-                //     border: none;
-                //     cursor: pointer;
-                //     border-radius: 5px;
-                //     background-color: var(--accent-color);
-                //     color: var(--white-color);
-                //     margin: 2rem 0;
-                // }
-            }
         }
 
         .about-image{
             align-self: center;
             img{
                 border-radius: 50%;
+                @media screen and (max-width: 768px){
+                  width: 70%;
+                  margin: 0 auto;
+                }
+
             }
         }
     }
