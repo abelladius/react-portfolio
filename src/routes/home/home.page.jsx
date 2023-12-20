@@ -6,8 +6,9 @@ import LogoANIS from '../../assets/images/logos/logo-298x104.webp'
 import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
 import CV from '../../assets/CV-Damian-Szolosi.pdf'
 import Testimonials from '../../components/testimonials/testimonials.component'
-
+import Typed from 'react-typed'
 import {motion} from 'framer-motion'
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,10 +24,27 @@ const Home = () => {
         <div className="hero-information">
           <p className='accent-small'>Nice to meet you!</p>
           <h1 className="title"> Hi! I'm Damian</h1>
-          <p>I'm a <span className="accent">Frontend Web Developer</span> armed with a toolbox of HTML, CSS, JavaScript and React. I thrive on building elegant and intuitive interfaces that captivate users and bring ideas to life in the digital realm.</p>
+          <p>I'm a <span className="accent"> <Typed
+                strings={[
+                    'Frontend Web Developer',
+                    'ReactJS Developer',
+                    'Aspiring Full Stack Developer',
+                    'UI/UX Designer',
+                    'Wordpress developer']}
+                    typeSpeed={40}
+                    backSpeed={50}
+                    loop >
+                </Typed></span> armed with a toolbox of HTML, CSS, JavaScript and React situated in 
+                <span class="flag">
+                  <div class="stripe blue"></div>
+                  <div class="stripe yellow"></div>
+                  <div class="stripe red"></div>
+                </span>
+                Timisoara, Romania. I thrive on building elegant and intuitive interfaces that captivate users and bring ideas to life in the digital realm.</p>
 
           <div className="cta-buttons">
-            <button className="cta-button button">See my work!</button>
+            <Link to='../portfolio'>
+            <button className="cta-button button">See my work!</button></Link>
             <a href={CV} download="DamianS_CV.pdf">
                 <button className='button-secondary'>Download my CV!</button>
           </a>
