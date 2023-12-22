@@ -36,7 +36,7 @@ const projectsData = [
       {
         title: 'My vanilla portfolio',
         description:
-          'I designed and developed a simple and user-friendly website for KYD Animal Shelter. The website allows for easy online donations to support stray animals. It was a fulfilling project, knowing that the website helps make a positive impact on the lives of these animals.',
+          'I designed and developed a simple and user-friendly website as my first portfolio. I learnt a lot by building this, since it is my first finished project, including semantic HTML and responsive styling.',
         skills: 'HTML, CSS, JavaScript',
         img: Project4,
         link: 'https://abelladius.github.io/static-portfolio/',
