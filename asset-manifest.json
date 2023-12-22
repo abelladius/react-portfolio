@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.155381a8.css",
-    "main.js": "/react-portfolio/static/js/main.b99db5a3.js",
+    "main.js": "/react-portfolio/static/js/main.4a53b433.js",
     "static/media/CV-Damian-Szolosi.pdf": "/react-portfolio/static/media/CV-Damian-Szolosi.1696245cc9c0f07c8d91.pdf",
     "static/media/pp-2.webp": "/react-portfolio/static/media/pp-2.2e8e27db1f739e58e7cd.webp",
     "static/media/project-1.webp": "/react-portfolio/static/media/project-1.33219d4eb19462a723c9.webp",
@@ -16,10 +16,10 @@
     "static/media/logo-scarpa.webp": "/react-portfolio/static/media/logo-scarpa.fa540d3898e537d1ff91.webp",
     "index.html": "/react-portfolio/index.html",
     "main.155381a8.css.map": "/react-portfolio/static/css/main.155381a8.css.map",
-    "main.b99db5a3.js.map": "/react-portfolio/static/js/main.b99db5a3.js.map"
+    "main.4a53b433.js.map": "/react-portfolio/static/js/main.4a53b433.js.map"
   },
   "entrypoints": [
     "static/css/main.155381a8.css",
-    "static/js/main.b99db5a3.js"
+    "static/js/main.4a53b433.js"
   ]
 }
