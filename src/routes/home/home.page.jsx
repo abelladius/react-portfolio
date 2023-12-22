@@ -35,10 +35,10 @@ const Home = () => {
                     backSpeed={50}
                     loop >
                 </Typed></span> armed with a toolbox of HTML, CSS, JavaScript and React situated in 
-                <span class="flag">
-                  <div class="stripe blue"></div>
-                  <div class="stripe yellow"></div>
-                  <div class="stripe red"></div>
+                <span className="flag">
+                  <span className="stripe blue"></span>
+                  <span className="stripe yellow"></span>
+                  <span className="stripe red"></span>
                 </span>
                 Timisoara, Romania. I thrive on building elegant and intuitive interfaces that captivate users and bring ideas to life in the digital realm.</p>
 
