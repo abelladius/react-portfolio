@@ -97,17 +97,12 @@
         @media screen and (max-width: 768px){
             flex-direction: column;
             h2{
-                width: 100%;
+                align-self: center;
             }
         }
 
         h2{
             width: 200px;
-            @media screen and (max-width: 768px){
-                width: 80%;
-                margin: 0 auto;
-            }
-
             @media screen and (max-width: 857px){
                 font-size: .8rem;
             }
